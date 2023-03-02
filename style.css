@@ -1,1 +1,5 @@
-body{background-color:#dddddd;}
+body{
+    background-image:url(img/lumine.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
