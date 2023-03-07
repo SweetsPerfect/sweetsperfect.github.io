@@ -1,0 +1,22 @@
+.h1-6{
+    color:#000000;
+    margin:0;
+    margin-left:2px;
+    font-family:"Yu Gothic";}
+p{
+    color:#000000;
+    margin:0;
+    margin-left:2px;
+    font-family:"Yu Gothic";}
+a{
+    color:#000000;
+    text-decoration:none;
+    margin-left:2px;
+    font-family:"Yu Gothic";}
+a:hover{
+    text-decoration:underline;}
+
+#content{
+    width:350px;
+    height:auto;
+    background-color:aquamarine;}
