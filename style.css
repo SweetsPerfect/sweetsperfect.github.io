@@ -4,7 +4,8 @@ html{
     margin:0;}
 body{
     background-color:#080810;
-    margin:0;}
+    margin:0;
+    z-index:1}
 iframe{
     border:none;
     width:100%;
@@ -21,8 +22,8 @@ a:hover{
     text-decoration:underline;}
 
 #main{
-    width:100vw;
-    height:100vh;
+    width:100%;
+    height:100%;
     display:flex;
     flex-direction:row;}
       
@@ -30,14 +31,11 @@ a:hover{
     display:flex;
     width:100%;
     height:50px;
-    background-color:#181830;
+    background-color:#202040;
     align-items:center;
     position:fixed;
     top:0;
-    z-index:1;}
-#top-header:hover{
-    background-color:#202040;}
-
+    z-index:3;}
 #top-header_title{
     color:#8787fa;
     font-family:"Comic Sans MS";
@@ -51,17 +49,24 @@ a:hover{
     position:fixed;
     top:50px;
     width:200px;
-    height:calc(100vh - 50px);
-    background-color:#0c0c18;}
-#left-sidebar:hover{
-    background-color:#101020;}
+    height:calc(100% - 50px);
+    background-color:#101020;
+    z-index:2;}
 
 #right-sidebar{
     position:fixed;
     top:50px;
     right:0;
     width:350px;
-    height:calc(100vh - 50px);
-    background-color:aliceblue;}
-#right-sidebar:hover{
-    background-color:#8787fa;}   
+    height:calc(100% - 50px);
+    background-color:#101020;
+    z-index:2;}
+
+#content{
+    position:fixed;
+    top:75px;
+    left:250px;
+    width:50%;
+    height:87.5%;
+    background-color:aliceblue;
+    z-index:2;}
