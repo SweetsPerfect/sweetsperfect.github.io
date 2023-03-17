@@ -12,12 +12,19 @@ iframe{
     height:100%;}
 p{
     color:aliceblue;
+    font-family:'Yu Gothic';
     margin:0;
-    margin-left:8px;}
-a{
+    margin-left:16px;}
+.h1-6{
     color:aliceblue;
-    text-decoration:none;
-    margin-left:8px;}
+    font-family:'Yu Gothic';
+    margin:0;
+    margin-left:16px;}
+a{
+    font-family:'Yu Gothic';
+    color:deepskyblue;
+    margin:0;
+    margin-left:16px;}
 a:hover{
     text-decoration:underline;}
 
@@ -40,7 +47,8 @@ a:hover{
     color:#8787fa;
     font-family:"Comic Sans MS";
     font-size:30px;
-    padding:10px;}
+    left:0px;
+    text-decoration:none;}
 #top-header_title:hover{
     color:aliceblue;
     position:relative;}
@@ -48,11 +56,10 @@ a:hover{
 #left-sidebar{
     position:fixed;
     top:50px;
-    width:200px;
+    width:250px;
     height:calc(100% - 50px);
     background-color:#101020;
     z-index:2;}
-
 #right-sidebar{
     position:fixed;
     top:50px;
@@ -63,10 +70,8 @@ a:hover{
     z-index:2;}
 
 #content{
-    position:fixed;
-    top:75px;
+    position:absolute;
+    top:50px;
     left:250px;
-    width:calc(100% - 650px);
-    height:87.5vh;
-    background-color:aliceblue;
+    width:calc(100% - 600px);
     z-index:2;}
