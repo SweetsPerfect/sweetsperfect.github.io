@@ -3,8 +3,7 @@ body{
     font-size:20px;
     font-family:'Yu Gothic';
     margin:0;
-    z-index:1}
-
+    z-index:1;}
 p{
     margin:0;}
 h1{
@@ -45,6 +44,8 @@ a:hover{
     height:calc(100vh - 50px);
     width:250px;
     overflow-y:auto;
+    padding-top:4px;
+    padding-left:8px;
     position:fixed;
     top:50px;
     z-index:2;}
@@ -61,6 +62,7 @@ a:hover{
 
 #content{
     background-color:#ffffff;
+    border-radius:10px;
     left:275px;
     position:absolute;
     top:75px;
